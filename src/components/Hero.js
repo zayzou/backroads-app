@@ -1,4 +1,4 @@
-const Home = () => {
+const Hero = () => {
     return (
         <section className="hero" id="home">
             <div className="hero-banner">
