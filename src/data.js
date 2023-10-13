@@ -47,6 +47,7 @@ export const services = [
 export const tours = [
     {
         id: 1,
+        location:"China",
         title: "Tibet Adventure",
         date: "august 26th, 2020",
         text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque exercitationem fugit, qui corporis.",
@@ -56,6 +57,7 @@ export const tours = [
     },
     {
         id: 2,
+        location:"Indonesia",
         title: "best of java",
         date: "august 26th, 2020",
         text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque exercitationem fugit, qui corporis.",
@@ -65,6 +67,7 @@ export const tours = [
     },
     {
         id: 3,
+        location:"China",
         title: "explore hong kong",
         date: "august 26th, 2020",
         text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque exercitationem fugit, qui corporis.",
@@ -74,6 +77,7 @@ export const tours = [
     },
     {
         id: 4,
+        location:"Kenya",
         title: "kenya highlights",
         date: "august 26th, 2020",
         text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque exercitationem fugit, qui corporis.",
