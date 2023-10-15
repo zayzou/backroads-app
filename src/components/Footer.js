@@ -1,18 +1,13 @@
-import { iconLink, pageLink } from "../data";
+import PageLink from "./PageLink";
+import SocialLink from "./SocialLink";
+
 
 const Footer = () => {
   return (
     <footer className="section footer">
-      <ul className="footer-links">
-        {pageLink.map(({ id, href, text }) => (
-          <li key={id}>
-            <a href={href} className="footer-link">
-              {text}
-            </a>
-          </li>
-        ))}
-      </ul>
-      <ul className="footer-icons">
+      <PageLink parentClass="footer-links" childClass="footer-link" />
+      <SocialLink parentClass="footer-links" childClass="footer-link" />
+      {/* <ul className="footer-icons">
         {iconLink.map(({ id, href, name }) => {
           return (
             <li key={id}>
@@ -27,7 +22,7 @@ const Footer = () => {
             </li>
           );
         })}
-      </ul>
+      </ul> */}
       <p className="copyright">
         copyright &copy; Zayzou travel tours company
         <span id="date">{new Date().getFullYear()}</span> all rights reserved
