@@ -1,17 +1,11 @@
-import { pageLink } from "../data";
-
-const PageLink = ({ parentClass, childClass }) => {
+const PageLink = ({ link, childClass }) => {
   return (
-    <ul className={parentClass} id={parentClass}>
-      {pageLink.map((e) => (
-        <li key={e.id}>
-          <a href={e.href} className={childClass}>
-            {" "}
-            {e.text}{" "}
-          </a>
-        </li>
-      ))}
-    </ul>
+    <li>
+      <a href={link.href} className={childClass}>
+        {" "}
+        {link.text}{" "}
+      </a>
+    </li>
   );
 };
 
