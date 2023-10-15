@@ -19,6 +19,12 @@ export const iconLink = [
 
 export const services = [
     {
+        id: 0,
+        title: "Service 001",
+        icon: "fa-wallet",
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit Asperiores, officia."
+    },
+    {
         id: 1,
         title: "saving money",
         icon: "fa-wallet",
